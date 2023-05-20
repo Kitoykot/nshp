@@ -1,0 +1,90 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+nav {
+    border-bottom: 1px solid #FFFFFF;
+    height: 70px;
+}
+
+li {
+    list-style-type: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.largeN {
+    color: #D5962E;
+    font-size: 30px
+}
+
+.largeS {
+    color: #0E3C7E;
+    font-size: 30px
+}
+
+p {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.searchClass {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchInput {
+    width: 75%;
+    margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.sale {
+    width: 250px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.saleOne {
+    display: flex;
+    border-top: 2px solid #ddd;
+    padding-top: 15px;
+}
+
+.descriptionOne {
+ border: none;
+}
+
+.priceOne {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.contactsOne {
+    padding-top: 10px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; 
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
